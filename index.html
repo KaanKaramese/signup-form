@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+  <main>
+    <section class="content-container">
+      <h1>Learn to code by <br> watching others</h1>
+      <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+    <section class="form-container">
+      <p class="promo">
+        <span>Try it free 7 days</span>  then $20/mo. thereafter
+      </p>
+      <form id="form" action="/" method="GET">
+        <div>
+          <input id="firstName" type="text" value="" placeholder="First Name">
+          <span class="error_img"><img src="./images/icon-error.svg" alt="error"></span>
+          <small></small>
+        </div>
+        <div>
+          <input id="lastName" type="text" value="" placeholder="Last Name">
+          <span class="error_img"><img src="./images/icon-error.svg" alt="error"></span>
+          <small></small>
+        </div>
+        <div>
+          <input id="email" type="text" value="" placeholder="Email Address">
+          <span class="error_img"><img src="./images/icon-error.svg" alt="error"></span>
+          <small></small>
+        </div>
+        <div>
+          <input id="password" type="password" value="" placeholder="Password">
+          <span class="error_img"><img src="./images/icon-error.svg" alt="error"></span>
+          <small></small>
+        </div>
+        <div>
+          <input class="button" type="submit" value="Claim your free trial">
+        <p class="ToS">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
